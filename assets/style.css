@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+}
+
+#container {
+    background-color: hsl(0, 0%, 100%);
+    width: 375px;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: 7% auto;
+    padding: 25px;
+    box-shadow: 6px 6px 1px rgb(0, 0, 0);
+}
+
+.ilustrarion {
+    border-radius: 15px;
+    width: 100%;
+    /* padding: 20px; */
+}
+
+.botao {
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 15px 0;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 3px;
+}
+
+.date {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.about {
+    color: hsl(0, 0%, 42%);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.avatar img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+}
